@@ -31,25 +31,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HabboExtensionMethods.cs" />
-    <Compile Include="UserHandlers.cs" />
+    <Compile Include="HabboHandlers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Database Structures\DB-Main\DB-Main.csproj">
-      <Project>{62AF647E-C9BC-4E05-8A91-B044074A3147}</Project>
-      <Name>DB-Main</Name>
-      <Private>False</Private>
-    </ProjectReference>
     <ProjectReference Include="..\..\Server\Server.csproj">
       <Project>{DAE1BFF3-35B4-493F-B261-0F050DE43832}</Project>
       <Name>Server</Name>

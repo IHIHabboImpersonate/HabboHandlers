@@ -11,7 +11,7 @@ namespace IHI.Server.Plugins.Cecer1.UserHandlers
 
             if (!int.TryParse(habbo.GetPersistantVariable("Client.Volume"), out volume))
             {
-                volume = 5; // TODO: Default value in config?
+                volume = 5; // TODO: Default value in config
                 habbo.SetPersistantVariable("Client.Volume", volume.ToString());
             }
             return volume;
@@ -20,7 +20,10 @@ namespace IHI.Server.Plugins.Cecer1.UserHandlers
         public static Habbo SetVolume(this Habbo habbo, int volume)
         {
             habbo.SetPersistantVariable("Client.Volume", volume.ToString());
-            new MVolumeLevel(volume).Send(habbo); // Update the client.
+            new MVolumeLevel
+                {
+                    Volume = volume
+                }.Send(habbo); // Update the client.
             return habbo;
         }
     }
