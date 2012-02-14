@@ -30,12 +30,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 
-[assembly: AssemblyTitle("IHIPreLoginHandlers")]
-[assembly: AssemblyDescription("IHI PreLoginHandlers for R63")]
+[assembly: AssemblyTitle("IHIHandlers")]
+[assembly: AssemblyDescription("IHI HabboHandlers for R63")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("IHI PreLoginHandlers")]
-[assembly: AssemblyCopyright("Copyright © Chris Cheney 2012")]
+[assembly: AssemblyProduct("IHI PreHabboHandlers")]
+[assembly: AssemblyCopyright("Copyright © Chris Chenery 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
