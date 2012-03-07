@@ -12,10 +12,7 @@
   <PropertyGroup>
     <RootNamespace>IHI.Server.Plugins.Cecer1.HabboHandlers</RootNamespace>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
-    <CodeAnalysisIgnoreGeneratedCode>true</CodeAnalysisIgnoreGeneratedCode>
-  </PropertyGroup>
-  <Import Project="IHIPlugin.targets" />
+  <Import Project="IHIPacketPlugin.targets" />
   <ItemGroup>
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
